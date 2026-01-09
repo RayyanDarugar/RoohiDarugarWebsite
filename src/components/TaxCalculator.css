@@ -1,0 +1,43 @@
+.tax-calculator {
+    background-color: var(--color-surface);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border);
+    margin-top: var(--spacing-md);
+}
+
+.tax-calculator h3 {
+    margin-bottom: var(--spacing-xs);
+    color: var(--color-primary);
+}
+
+.calculator-intro {
+    font-size: 0.9rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--color-text-light);
+}
+
+.calculator-form {
+    margin-bottom: var(--spacing-md);
+}
+
+.calculator-result {
+    background-color: var(--color-white);
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-border);
+    margin-bottom: var(--spacing-md);
+}
+
+.calculator-result h4 {
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.tool-disclaimer {
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+    font-style: italic;
+    border-top: 1px solid var(--color-border);
+    padding-top: var(--spacing-sm);
+}

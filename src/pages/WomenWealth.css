@@ -1,0 +1,113 @@
+.women-wealth-page {
+    padding: var(--spacing-xl) 0;
+    background-color: var(--color-white);
+}
+
+.women-wealth-page .page-title {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    color: #4a6fa5;
+    /* Blue color from reference */
+    margin-bottom: var(--spacing-lg);
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: left;
+}
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-xl);
+    gap: var(--spacing-lg);
+}
+
+.banner-text {
+    flex: 1;
+    max-width: 50%;
+}
+
+.banner-logo {
+    margin-bottom: var(--spacing-md);
+}
+
+.banner-advisor-name {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    color: #555;
+    line-height: 1;
+}
+
+.banner-advisor-title {
+    display: block;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    color: #777;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.banner-tagline {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    color: #777;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.2;
+}
+
+.banner-tagline em {
+    font-style: italic;
+}
+
+.banner-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* border-radius: var(--radius-md); Optional, reference image has sharp corners */
+}
+
+.content-section {
+    max-width: 100%;
+}
+
+.content-section p {
+    font-family: var(--font-body);
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: var(--spacing-md);
+    text-align: left;
+}
+
+.invitation-link {
+    color: #4a6fa5;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.invitation-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .banner-section {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .banner-text,
+    .banner-image {
+        max-width: 100%;
+    }
+
+    .women-wealth-page .page-title {
+        font-size: 2rem;
+    }
+}
