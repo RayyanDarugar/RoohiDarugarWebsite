@@ -9,7 +9,7 @@ const About = () => {
                     {/* Top Section: Headshot and Contact */}
                     <div className="flex flex-col md:flex-row justify-start items-center gap-12 mb-32 flex-wrap max-w-full mx-auto">
                         <div className="w-full max-w-[300px] h-auto md:w-[300px] md:h-[300px] shrink-0 shadow-md overflow-hidden rounded">
-                            <img src="/assets/images/headshot.jpg" alt="Roohi Darugar" className="w-full h-full object-cover block" />
+                            <img src={`${import.meta.env.BASE_URL}assets/images/headshot.jpg`} alt="Roohi Darugar" className="w-full h-full object-cover block" />
                         </div>
                         <div className="text-left bg-white p-8 rounded-md shadow-sm w-full md:min-w-[600px] lg:min-w-[800px] flex flex-col justify-center text-center md:text-left">
                             <h3 className="font-sans text-[1.9rem] tracking-wide text-secondary uppercase mb-4 font-semibold">CONTACT</h3>

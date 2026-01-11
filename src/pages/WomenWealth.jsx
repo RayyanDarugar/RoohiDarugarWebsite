@@ -17,7 +17,7 @@ const WomenWealth = () => {
                         <h2 className="font-serif text-3xl text-[#777] font-normal italic leading-tight">Helping You Take Control of Your Financial Future.</h2>
                     </div>
                     <div className="flex-1 w-full md:max-w-[50%]">
-                        <img src="/assets/images/women-wealth-banner.png" alt="Women discussing finances" className="w-full h-auto block" />
+                        <img src={`${import.meta.env.BASE_URL}assets/images/women-wealth-banner.png`} alt="Women discussing finances" className="w-full h-auto block" />
                     </div>
                 </section>
 

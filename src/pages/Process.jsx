@@ -17,7 +17,7 @@ const Process = () => {
                     <div className="relative">
                         <div className="lg:sticky lg:top-[100px] text-center mb-16 lg:mb-0">
                             <img
-                                src="/assets/images/process-diagram.png"
+                                src={`${import.meta.env.BASE_URL}assets/images/process-diagram.png`}
                                 alt="The Financial Planning Process Cycle"
                                 className="w-full max-w-[450px] h-auto block mx-auto mb-4"
                             />

@@ -15,7 +15,7 @@ const RetirementPlanning = () => {
             <div className="container mx-auto px-4 md:px-40">
                 <div className="flex flex-col md:flex-row gap-16 items-start bg-white p-8 rounded-md shadow-sm">
                     <div className="shrink-0 w-20 h-20 bg-surface rounded-full p-4 flex items-center justify-center mx-auto md:mx-0">
-                        <img src="/assets/images/retirement-icon.png" alt="Retirement Planning" className="w-full h-full object-contain" />
+                        <img src={`${import.meta.env.BASE_URL}assets/images/retirement-icon.png`} alt="Retirement Planning" className="w-full h-full object-contain" />
                     </div>
                     <div className="flex-1 text-left">
                         <h2 className="text-primary mb-4 text-3xl font-serif">Confidence in Your Next Chapter</h2>

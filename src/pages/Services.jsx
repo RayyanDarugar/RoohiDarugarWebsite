@@ -17,7 +17,7 @@ const Services = () => {
                     {/* Investment Management */}
                     <section className="bg-white p-8 rounded-md border border-border-main transition-shadow hover:shadow-md" id="investment-management">
                         <div className="w-16 h-16 mb-4">
-                            <img src="/assets/images/investment-icon.png" alt="Investment Management Icon" className="w-full h-full object-contain" />
+                            <img src={`${import.meta.env.BASE_URL}assets/images/investment-icon.png`} alt="Investment Management Icon" className="w-full h-full object-contain" />
                         </div>
                         <h2 className="text-primary border-b-2 border-secondary pb-2 mb-8 inline-block text-2xl font-bold font-serif">Investment Management</h2>
                         <div className="service-content">
@@ -33,7 +33,7 @@ const Services = () => {
                     {/* Tax Planning */}
                     <section className="bg-white p-8 rounded-md border border-border-main transition-shadow hover:shadow-md" id="tax-planning">
                         <div className="w-16 h-16 mb-4">
-                            <img src="/assets/images/tax-icon.png" alt="Tax Planning Icon" className="w-full h-full object-contain" />
+                            <img src={`${import.meta.env.BASE_URL}assets/images/tax-icon.png`} alt="Tax Planning Icon" className="w-full h-full object-contain" />
                         </div>
                         <h2 className="text-primary border-b-2 border-secondary pb-2 mb-8 inline-block text-2xl font-bold font-serif">Tax Planning</h2>
                         <div className="service-content">
@@ -52,7 +52,7 @@ const Services = () => {
                     {/* Risk Management */}
                     <section className="bg-white p-8 rounded-md border border-border-main transition-shadow hover:shadow-md" id="risk-management">
                         <div className="w-16 h-16 mb-4">
-                            <img src="/assets/images/risk-icon.png" alt="Risk Management Icon" className="w-full h-full object-contain" />
+                            <img src={`${import.meta.env.BASE_URL}assets/images/risk-icon.png`} alt="Risk Management Icon" className="w-full h-full object-contain" />
                         </div>
                         <h2 className="text-primary border-b-2 border-secondary pb-2 mb-8 inline-block text-2xl font-bold font-serif">Risk Management</h2>
                         <div className="service-content">
@@ -71,7 +71,7 @@ const Services = () => {
                     {/* Retirement Planning */}
                     <section className="bg-white p-8 rounded-md border border-border-main transition-shadow hover:shadow-md" id="retirement-planning">
                         <div className="w-16 h-16 mb-4">
-                            <img src="/assets/images/retirement-icon.png" alt="Retirement Planning Icon" className="w-full h-full object-contain" />
+                            <img src={`${import.meta.env.BASE_URL}assets/images/retirement-icon.png`} alt="Retirement Planning Icon" className="w-full h-full object-contain" />
                         </div>
                         <h2 className="text-primary border-b-2 border-secondary pb-2 mb-8 inline-block text-2xl font-bold font-serif">Retirement Planning</h2>
                         <div className="service-content">

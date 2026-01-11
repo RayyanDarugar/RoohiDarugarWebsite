@@ -6,7 +6,7 @@ const Home = () => {
     return (
 
         <div className="home-page">
-            <section className="bg-surface py-20 text-center bg-cover bg-center" style={{ backgroundImage: "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), url('/assets/images/hero-bg.png')" }}>
+            <section className="bg-surface py-20 text-center bg-cover bg-center" style={{ backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), url('${import.meta.env.BASE_URL}assets/images/hero-bg.png')` }}>
                 <div className="container mx-auto px-4 md:px-40">
                     <div className="max-w-4xl mx-auto">
                         <h1 className="text-5xl mb-4 text-primary max-w-full mx-auto font-serif">Personalized, long-term financial planning</h1>
@@ -35,7 +35,7 @@ const Home = () => {
                         </div>
                         {/* Placeholder for advisor image if available, otherwise use a nice abstract or office image */}
                         <div className="max-w-[400px] mx-auto rounded-md overflow-hidden shadow-md">
-                            <img src="/assets/images/headshot.jpg" alt="Roohi Darugar - Financial Advisor" className="w-full h-auto block" />
+                            <img src={`${import.meta.env.BASE_URL}assets/images/headshot.jpg`} alt="Roohi Darugar - Financial Advisor" className="w-full h-auto block" />
                         </div>
                     </div>
                 </div>
