@@ -25,7 +25,7 @@
 /* Top Section: Profile Header */
 .about-profile-header {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: 3rem;
     /* Increased gap for better separation */
@@ -37,9 +37,9 @@
 }
 
 .about-headshot {
-    width: 220px;
+    width: 300px;
     /* Reduced from 300px to be a "reasonable square" */
-    height: 220px;
+    height: 300px;
     /* Enforce square aspect ratio */
     flex-shrink: 0;
     box-shadow: var(--shadow-md);
@@ -60,7 +60,7 @@
     padding: 2rem;
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-sm);
-    min-width: 300px;
+    min-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,7 +68,7 @@
 
 .contact-title {
     font-family: 'Inter', sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.9rem;
     letter-spacing: 1px;
     color: #7a9c95;
     /* Muted teal/green */
@@ -79,7 +79,7 @@
 
 .contact-info p {
     margin-bottom: var(--spacing-xs);
-    font-size: 0.9rem;
+    font-size: 1.6rem;
     color: var(--color-text-main);
 }
 
@@ -94,7 +94,7 @@
 
 /* Bottom Section: Full Bio */
 .about-full-bio {
-    max-width: 100%;
+    max-width: 65%;
     margin: 0 auto;
     text-align: left;
 }
@@ -131,7 +131,7 @@
 
 .bio-text p {
     margin-bottom: var(--spacing-md);
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     line-height: 1.8;
     color: var(--color-text-main);
 }

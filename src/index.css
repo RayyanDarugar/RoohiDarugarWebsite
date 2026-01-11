@@ -11,6 +11,7 @@
 
 body {
   font-family: var(--font-body);
+  font-size: 20pt;
   color: var(--color-text-main);
   background-color: var(--color-background);
   line-height: 1.6;
@@ -53,7 +54,7 @@ button {
 .container {
   max-width: 100%;
   margin: 0 auto;
-  padding: 0 4rem;
+  padding: 0 10rem;
 }
 
 @media (max-width: 768px) {

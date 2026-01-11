@@ -41,9 +41,6 @@ const About = () => {
                                 Through a personalized process, Roohi prioritizes her clients' goals to deliver successful strategies. Her main objective is adding value through tax-wise investment solutions, creating action plans that instill financial confidence.
                             </p>
                             <p>
-                                Roohi's mission is to educate clients, clarify objectives, implement effective courses of action, and provide consistent, ongoing service.
-                            </p>
-                            <p>
                                 Outside the office, Roohi enjoys time with her husband and three sons, independent films, theater, and camping. She is committed to giving back through local non-profits and breast cancer awareness activities.
                             </p>
                             <p>
