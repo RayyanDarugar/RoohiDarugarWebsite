@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Contact.css';
+
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -26,34 +26,35 @@ const Contact = () => {
     };
 
     return (
-        <div className="contact-page">
-            <section className="page-header">
-                <div className="container">
-                    <h1 className="page-title">Contact Us</h1>
-                    <p className="page-subtitle">Schedule a consultation or ask a question.</p>
+
+        <div className="pb-32">
+            <section className="py-16 text-center">
+                <div className="container mx-auto px-4 md:px-40">
+                    <h1 className="font-serif text-5xl text-primary mb-4">Contact Us</h1>
+                    <p className="text-xl text-text-light">Schedule a consultation or ask a question.</p>
                 </div>
             </section>
 
-            <div className="container">
-                <div className="contact-grid">
-                    <div className="contact-info">
-                        <h2>Get in Touch</h2>
-                        <p className="contact-intro">
+            <div className="container mx-auto px-4 md:px-40">
+                <div className="grid grid-cols-1 md:grid-cols-[1fr_1.5fr] gap-16">
+                    <div className="bg-surface p-8 md:p-16 rounded-md">
+                        <h2 className="mb-8 text-2xl font-serif text-primary">Get in Touch</h2>
+                        <p className="mb-16 text-text-main">
                             We are here to help you pursue your financial goals. Please contact us to schedule a consultation.
                         </p>
 
                         <div className="contact-details">
-                            <div className="contact-item">
-                                <h3>Phone</h3>
-                                <p><a href="tel:8588798034">(858) 879-8034</a></p>
+                            <div className="mb-8">
+                                <h3 className="text-lg text-primary mb-2 font-bold">Phone</h3>
+                                <p className="text-text-main text-base"><a href="tel:8588798034">(858) 879-8034</a></p>
                             </div>
-                            <div className="contact-item">
-                                <h3>Email</h3>
-                                <p><a href="mailto:roohi.darugar@lpl.com">roohi.darugar@lpl.com</a></p>
+                            <div className="mb-8">
+                                <h3 className="text-lg text-primary mb-2 font-bold">Email</h3>
+                                <p className="text-text-main text-base"><a href="mailto:roohi.darugar@lpl.com">roohi.darugar@lpl.com</a></p>
                             </div>
-                            <div className="contact-item">
-                                <h3>Office</h3>
-                                <p>
+                            <div className="mb-8">
+                                <h3 className="text-lg text-primary mb-2 font-bold">Office</h3>
+                                <p className="text-text-main text-base">
                                     LPL Financial<br />
                                     16776 Bernardo Center Drive, Suite 203<br />
                                     San Diego, CA, 92128
@@ -62,10 +63,10 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className="contact-form-container">
+                    <div className="bg-white p-8 md:p-16 rounded-md border border-border-main">
                         <form className="contact-form" onSubmit={handleSubmit}>
-                            <div className="form-group">
-                                <label htmlFor="name">Name</label>
+                            <div className="mb-8">
+                                <label htmlFor="name" className="block mb-2 font-medium text-text-main">Name</label>
                                 <input
                                     type="text"
                                     id="name"
@@ -73,11 +74,12 @@ const Contact = () => {
                                     value={formData.name}
                                     onChange={handleChange}
                                     required
+                                    className="w-full p-3 border border-border-main rounded text-base focus:outline-none focus:border-primary transition-colors"
                                 />
                             </div>
 
-                            <div className="form-group">
-                                <label htmlFor="email">Email</label>
+                            <div className="mb-8">
+                                <label htmlFor="email" className="block mb-2 font-medium text-text-main">Email</label>
                                 <input
                                     type="email"
                                     id="email"
@@ -85,22 +87,24 @@ const Contact = () => {
                                     value={formData.email}
                                     onChange={handleChange}
                                     required
+                                    className="w-full p-3 border border-border-main rounded text-base focus:outline-none focus:border-primary transition-colors"
                                 />
                             </div>
 
-                            <div className="form-group">
-                                <label htmlFor="phone">Phone (Optional)</label>
+                            <div className="mb-8">
+                                <label htmlFor="phone" className="block mb-2 font-medium text-text-main">Phone (Optional)</label>
                                 <input
                                     type="tel"
                                     id="phone"
                                     name="phone"
                                     value={formData.phone}
                                     onChange={handleChange}
+                                    className="w-full p-3 border border-border-main rounded text-base focus:outline-none focus:border-primary transition-colors"
                                 />
                             </div>
 
-                            <div className="form-group">
-                                <label htmlFor="message">Message</label>
+                            <div className="mb-8">
+                                <label htmlFor="message" className="block mb-2 font-medium text-text-main">Message</label>
                                 <textarea
                                     id="message"
                                     name="message"
@@ -108,14 +112,15 @@ const Contact = () => {
                                     onChange={handleChange}
                                     rows="5"
                                     required
+                                    className="w-full p-3 border border-border-main rounded text-base focus:outline-none focus:border-primary transition-colors"
                                 ></textarea>
                             </div>
 
-                            <button type="submit" className="btn btn-primary">Send Message</button>
+                            <button type="submit" className="btn btn-primary w-full md:w-auto px-8 py-3 rounded bg-primary text-white hover:bg-[#002244] transition-colors">Send Message</button>
                         </form>
 
-                        <div className="form-disclaimer">
-                            <p>
+                        <div className="mt-8 pt-8 border-t border-border-main">
+                            <p className="text-xs text-text-light italic">
                                 Submitting information through this website does not establish a client-advisor relationship. Please do not send confidential or sensitive information via this site or email.
                             </p>
                         </div>

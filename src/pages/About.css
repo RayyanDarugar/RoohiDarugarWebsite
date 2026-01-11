@@ -25,7 +25,7 @@
 /* Top Section: Profile Header */
 .about-profile-header {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     gap: 3rem;
     /* Increased gap for better separation */

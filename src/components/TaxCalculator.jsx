@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './TaxCalculator.css';
+
 
 const TaxCalculator = () => {
     const [income, setIncome] = useState('');
@@ -31,13 +31,14 @@ const TaxCalculator = () => {
     };
 
     return (
-        <div className="tax-calculator">
-            <h3>Educational Tax Estimator</h3>
-            <p className="calculator-intro">Estimate your federal tax liability based on 2024 brackets (Simplified).</p>
 
-            <form onSubmit={calculateTax} className="calculator-form">
-                <div className="form-group">
-                    <label htmlFor="income">Annual Taxable Income ($)</label>
+        <div className="bg-surface p-8 rounded-md border border-border-main mt-8">
+            <h3 className="mb-2 text-primary text-xl font-bold">Educational Tax Estimator</h3>
+            <p className="text-sm mb-8 text-text-light">Estimate your federal tax liability based on 2024 brackets (Simplified).</p>
+
+            <form onSubmit={calculateTax} className="mb-8">
+                <div className="mb-4">
+                    <label htmlFor="income" className="block mb-2 font-medium text-text-main">Annual Taxable Income ($)</label>
                     <input
                         type="number"
                         id="income"
@@ -45,32 +46,34 @@ const TaxCalculator = () => {
                         onChange={(e) => setIncome(e.target.value)}
                         placeholder="e.g. 75000"
                         required
+                        className="w-full p-3 border border-border-main rounded text-base focus:outline-none focus:border-primary transition-colors"
                     />
                 </div>
 
-                <div className="form-group">
-                    <label htmlFor="filingStatus">Filing Status</label>
+                <div className="mb-4">
+                    <label htmlFor="filingStatus" className="block mb-2 font-medium text-text-main">Filing Status</label>
                     <select
                         id="filingStatus"
                         value={filingStatus}
                         onChange={(e) => setFilingStatus(e.target.value)}
+                        className="w-full p-3 border border-border-main rounded text-base focus:outline-none focus:border-primary transition-colors"
                     >
                         <option value="single">Single</option>
                         <option value="married">Married Filing Jointly</option>
                     </select>
                 </div>
 
-                <button type="submit" className="btn btn-primary btn-sm">Estimate Tax</button>
+                <button type="submit" className="btn btn-primary px-4 py-2 text-sm">Estimate Tax</button>
             </form>
 
             {estimatedTax !== null && (
-                <div className="calculator-result">
-                    <h4>Estimated Federal Tax: ${estimatedTax.toLocaleString(undefined, { maximumFractionDigits: 2 })}</h4>
+                <div className="bg-white p-4 rounded-sm border border-border-main mb-8">
+                    <h4 className="text-primary mb-2 font-bold">Estimated Federal Tax: ${estimatedTax.toLocaleString(undefined, { maximumFractionDigits: 2 })}</h4>
                     <p>Effective Tax Rate: {((estimatedTax / parseFloat(income)) * 100).toFixed(1)}%</p>
                 </div>
             )}
 
-            <div className="tool-disclaimer">
+            <div className="text-xs text-text-light italic border-t border-border-main pt-4">
                 <p>
                     Any calculators or tools are provided for educational purposes only and are not intended to provide specific investment recommendations. Results are hypothetical and do not reflect actual investment outcomes.
                 </p>
