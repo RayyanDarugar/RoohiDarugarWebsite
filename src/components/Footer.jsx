@@ -11,19 +11,22 @@ const Footer = () => {
                     <div className="flex-[2] min-w-[300px] w-full md:w-auto text-center md:text-left">
                         <div className="footer-disclaimers">
                             <p className="text-xs text-text-light mb-4 leading-normal text-center md:text-justify">
-                                Securities and advisory services are offered through LPL Financial, a registered investment advisor and broker-dealer. Member FINRA and SIPC.
+                                Roohi Darugar is a registered representative with, and Securities and Advisory services offered through LPL Financial, a Registered Investment Advisor. Member FINRA & SIPC.
                             </p>
                             <p className="text-xs text-text-light mb-4 leading-normal text-center md:text-justify">
-                                The information on this website is for general informational purposes only and should not be considered individualized investment, tax, or legal advice. Investing involves risk, including the potential loss of principal.
+                                The financial professionals associated with LPL Financial may discuss and/or transact business only with residents of the states in which they are properly registered or licensed. No offers may be made or accepted from any resident of any other state.
                             </p>
                             <p className="text-xs text-text-light mb-4 leading-normal text-center md:text-justify">
-                                Roohi Darugar does not provide legal or tax advice. Please consult your attorney or tax professional regarding your specific circumstances.
+                                Securities and advisory services offered through LPL Financial, a registered investment advisor. Member FINRA/SIPC.
+                            </p>
+                            <p className="text-sm font-bold text-center md:text-justify mb-4">
+                                <a href="https://www.lpl.com/CRS" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">LPL Financial Form CRS</a>
                             </p>
                         </div>
                     </div>
 
                     {/* Right Column: Contact Info */}
-                    <div className="flex-1 min-w-[250px] text-center md:text-right flex flex-col items-center md:items-end w-full md:w-auto">
+                    <div className="flex-1 min-w-[250px] text-center flex flex-col items-center w-full md:w-auto">
                         <h3 className="font-serif text-2xl text-primary mb-8">Roohi Darugar <span className="font-sans text-base font-normal text-text-light">CRPC®</span></h3>
 
                         <div className="footer-contact-details">
@@ -34,8 +37,8 @@ const Footer = () => {
                             {/* <p className="contact-fax">Fax: (555) 555-5555</p> */}
 
                             <p className="mb-2 text-[0.95rem] text-text-main leading-relaxed mt-1">
-                                1234 Financial Way, Suite 100<br />
-                                San Diego, CA 92101
+                                16776 Bernardo Center Drive, Suite 203<br />
+                                San Diego, CA 92128
                             </p>
 
                             <p className="mb-2 text-[0.95rem] text-text-main leading-relaxed">

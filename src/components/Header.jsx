@@ -48,7 +48,7 @@ const Header = () => {
                         <div className="relative inline-block group w-full lg:w-auto border-b lg:border-none border-border-main">
                             <span className="font-medium text-text-main cursor-pointer no-underline py-2 hover:text-primary block w-full lg:w-auto">Tools ▾</span>
                             <div className="block lg:hidden group-hover:block lg:absolute bg-white lg:min-w-[220px] lg:shadow-md z-10 rounded py-2 top-full left-0 pl-8 lg:pl-0 border-l-2 border-secondary lg:border-none static shadow-none">
-                                <Link to="/tools/tax-estimator" onClick={() => setIsMenuOpen(false)} className="text-text-main px-4 py-3 no-underline block text-[0.95rem] hover:bg-surface hover:text-primary">Tax Estimator</Link>
+
                                 <Link to="/tools/blog" onClick={() => setIsMenuOpen(false)} className="text-text-main px-4 py-3 no-underline block text-[0.95rem] hover:bg-surface hover:text-primary">Financial Insights Blog</Link>
                             </div>
                         </div>

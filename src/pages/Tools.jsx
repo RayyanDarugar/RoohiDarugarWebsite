@@ -1,5 +1,5 @@
 import React from 'react';
-import TaxCalculator from '../components/TaxCalculator';
+
 
 
 const Tools = () => {
@@ -15,10 +15,7 @@ const Tools = () => {
 
             <div className="container mx-auto px-4 md:px-40">
                 <div className="grid grid-cols-1 gap-16 max-w-[900px] mx-auto">
-                    <section className="bg-white p-8 rounded-md shadow-sm mb-32 border border-border-main">
-                        <h2 className="text-primary border-b-2 border-secondary pb-2 mb-8 inline-block text-2xl font-bold font-serif">Tax Estimator</h2>
-                        <TaxCalculator />
-                    </section>
+
 
                     <section className="bg-white p-8 rounded-md shadow-sm mb-32 border border-border-main">
                         <h2 className="text-primary border-b-2 border-secondary pb-2 mb-8 inline-block text-2xl font-bold font-serif">Financial Insights Blog</h2>

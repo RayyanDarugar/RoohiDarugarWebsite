@@ -11,7 +11,10 @@ const Home = () => {
                     <div className="max-w-4xl mx-auto">
                         <h1 className="text-5xl mb-4 text-primary max-w-full mx-auto font-serif">Personalized, long-term financial planning</h1>
                         <p className="text-xl text-text-light mb-8 max-w-full mx-auto">Helping individuals, families, and businesses pursue financial goals</p>
-                        <Link to="/contact" className="btn btn-primary inline-block px-6 py-3 rounded bg-primary text-white hover:bg-[#002244] transition-colors">Schedule a Consultation</Link>
+                        <Link to="/contact" className="btn btn-primary inline-block px-6 py-3 rounded bg-primary text-white hover:bg-[#002244] transition-colors mb-8">Schedule a Consultation</Link>
+                        <p className="text-sm text-text-main font-medium">
+                            Check the background of investment professionals associated with this site on FINRA’s <a href="http://brokercheck.finra.org" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-secondary">BrokerCheck</a>
+                        </p>
                     </div>
                 </div>
             </section>

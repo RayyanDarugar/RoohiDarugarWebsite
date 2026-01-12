@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Tools from './pages/Tools';
-import TaxEstimator from './pages/TaxEstimator';
+
 import Blog from './pages/Blog';
 import WomenWealth from './pages/WomenWealth';
 import Process from './pages/Process';
@@ -28,7 +28,7 @@ function App() {
         <Route path="/services/retirement-planning" element={<RetirementPlanning />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/tools" element={<Tools />} />
-        <Route path="/tools/tax-estimator" element={<TaxEstimator />} />
+
         <Route path="/tools/blog" element={<Blog />} />
       </Route>
     </Routes>

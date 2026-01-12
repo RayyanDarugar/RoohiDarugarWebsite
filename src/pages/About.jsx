@@ -13,10 +13,11 @@ const About = () => {
                         </div>
                         <div className="text-center md:text-left">
                             <h3 className="font-sans text-sm tracking-wide text-secondary uppercase mb-2 font-semibold">FINANCIAL ADVISOR</h3>
-                            <h2 className="font-serif text-[2rem] md:text-[2.5rem] text-primary leading-tight">
+                            <h2 className="font-serif text-[2rem] md:text-[2.5rem] text-primary leading-tight mb-4">
                                 Roohi Darugar
                                 <span className="inline-block text-[1.5rem] ml-2 font-normal text-primary">CRPC®</span>
                             </h2>
+
                         </div>
                     </div>
 
@@ -39,6 +40,9 @@ const About = () => {
                             </p>
                             <p className="mb-6 text-[1.1rem] leading-relaxed text-text-main">
                                 She is a member of Business Network International, Rancho Santa Fe Business and Professional Women’s Association, NISWA, DIL, and SDNari.
+                            </p>
+                            <p className="text-sm text-text-main font-medium mt-8">
+                                Check the background of investment professionals associated with this site on FINRA’s <a href="http://brokercheck.finra.org" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-secondary">BrokerCheck</a>
                             </p>
                         </div>
                     </div>
