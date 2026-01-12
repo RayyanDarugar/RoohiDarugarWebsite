@@ -23,16 +23,16 @@ const WomenWealth = () => {
 
                 <section className="max-w-full">
                     <p className="font-sans text-[1.05rem] leading-relaxed text-[#555] mb-8 text-left">
-                        As a financial planner, I realized early in my career that few women had received the same encouragement and financial training that I had been given. I was surprised to learn how few women are truly comfortable talking about financial matters.
+                        Early in my career as a financial planner, I noticed a striking gap: far fewer women had received the encouragement and financial education I had. I was surprised by how many women felt uncomfortable discussing financial matters—not because of a lack of capability, but a lack of access and support.
                     </p>
                     <p className="font-sans text-[1.05rem] leading-relaxed text-[#555] mb-8 text-left">
-                        When I opened my own practice as a financial advisor, I made it my mission to focus time and energy on creating an environment where women are encouraged to learn about finances, become more engaged in the financial planning process and more confident in making financial decisions.
+                        When I opened my own financial advisory practice, I made it my mission to change that. I intentionally created an environment where women feel welcomed, informed, and empowered to engage in the financial planning process and make confident financial decisions.
                     </p>
                     <p className="font-sans text-[1.05rem] leading-relaxed text-[#555] mb-8 text-left">
-                        Many of my clients are dynamic women who are passionate about what they do, and are successful in life and their careers. They are often balancing the pressures and demands of their job and personal life, leaving little time for anything else. They want a financial advisor who understands their challenges.
+                        Many of my clients are accomplished, driven women who are passionate about their careers and lives. They often juggle demanding professional and personal responsibilities, leaving little time to focus on their finances. They want an advisor who understands those pressures and meets them where they are.
                     </p>
                     <p className="font-sans text-[1.05rem] leading-relaxed text-[#555] mb-8 text-left">
-                        With this in mind, I began hosting a series of events where smart and savvy women come together to discuss financial topics of interest. Past topics have included financial management, retirement planning, social security, and long term care planning. My goal is to educate women, create a community of shared knowledge and genuine relationships, and to empower women to become more engaged in the financial planning process. <a href="#contact" className="text-[#4a6fa5] font-bold no-underline hover:underline">Click here</a> to be added to my invitation list.
+                        With this in mind, I began hosting a series of events that bring together smart, savvy women to explore financial topics that matter most to them. Past discussions have included financial management, retirement planning, Social Security, and long-term care planning. My goal is to educate, build a supportive community rooted in shared knowledge and genuine relationships, and empower women to take an active role in their financial future.
                     </p>
                 </section>
             </div>
