@@ -19,9 +19,13 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // In a real app, this would send data to a backend
-        console.log('Form submitted:', formData);
-        alert('Thank you for your message. We will be in touch shortly.');
+
+        const subject = `Website Inquiry from ${formData.name}`;
+        const body = `Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0APhone: ${formData.phone}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
+
+        window.location.href = `mailto:roohi.darugar@lpl.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+
+        // Optional: clear form after opening email client
         setFormData({ name: '', email: '', phone: '', message: '' });
     };
 
