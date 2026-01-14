@@ -29,7 +29,7 @@ const Home = () => {
                                     The heart of my work as a Financial Advisor lies in my desire to personally help individuals, families and businesses work to pursue their financial goals and strive to establish a trusting long-term relationship. Since the very beginning of my career in 1999, I have used my talents to help families, women, and businesses pursue their financial aspirations.
                                 </p>
                                 <p className="mb-4 text-lg text-text-main">
-                                    The passion I have for my clients originates in my upbringing in a large family. For me, my view of family grows every time I meet someone who I can have the opportunity to assist and help others pursue their financial goals. My goals are to clarify and prioritize my client's financial goals, implement a course of action, and provide investment and financial planning services that put your financial goals and objectives first.
+                                    The passion I have for my clients originates in my upbringing in a large family. For me, my view of family grows every time I meet someone who I can have the opportunity to assist reach financial stability. My goals are to clarify and prioritize my client's financial motives, implement a course of action, and provide investment and financial planning services that put your goals and objectives first.
                                 </p>
                             </div>
                             <div className="mt-8">
